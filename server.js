@@ -6,7 +6,7 @@ const HOST = 'localhost';
 const app = express();
 app.get('/', (req, res) => {
   res.json({
-    name: 'Hello from mannnnnnnnnnnnn',
+    name: 'Hello from mannnn',
   });
 });
 

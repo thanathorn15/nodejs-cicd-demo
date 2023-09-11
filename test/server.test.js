@@ -9,7 +9,7 @@ describe('GET /', () => {
       .expect('Content-Type', /json/)
       .expect(200)
       .then((response) => {
-        expect(response.body.name).toBe('Hello from man');
+        expect(response.body.name).toBe('Hello from mannnn');
       });
   });
 });
